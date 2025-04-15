@@ -1,60 +1,92 @@
 # Lista de Exercícios sobre Capacidade das Baterias Recarregáveis
 
-## Questão 1
-
-**Dado:**  
-\( U = 12V \)  
-\( \Delta Q = 7Ah \)
-
-Fórmula:  
-\( \Delta Q = i \cdot \Delta t \rightarrow 7Ah = 2,3A \cdot t \Rightarrow t = \frac{7Ah}{2,3A} \)
-
-Cálculo:  
-\( i = 0,640, 0,920, 2,3A \Rightarrow G: 7Ah \Rightarrow \Delta t = 3,04347826 \Rightarrow \Delta t \approx 3,04h \)
+Este repositório contém uma lista de exercícios resolvidos sobre a capacidade e consumo de baterias recarregáveis, com foco no dimensionamento de tempo de operação, corrente e capacidade elétrica.
 
 ---
 
-## Questão 2
+## Questão 01 - Cálculo de tempo de descarga
 
-**Dado:**  
-\( U = 4,5V \)  
-\( \Delta Q = 10.000mAh - 15\% \Rightarrow \Delta Q = 8500mAh = 8,5Ah \)
+**Enunciado:**  
+Uma bateria de chumbo-ácido de 12V e 7Ah é usada para alimentar um sistema de comunicação emergencial. Esse sistema possui três circuitos distintos funcionando simultaneamente: um rádio que consome 0,6A, um sistema de iluminação que consome 0,8A e um módulo Wi-Fi que consome 0,9A.
 
-Fórmula:  
-\( \Delta Q = i \cdot \Delta t \Rightarrow 8,5Ah = 1,2A \cdot \Delta t \Rightarrow \Delta t = \frac{8,5Ah}{1,2A} \Rightarrow \Delta t = 7,083333... \Rightarrow \Delta t \approx 7,08h \)
+**Pergunta:**  
+Considerando a descarga completa da bateria, por quanto tempo o sistema pode operar ininterruptamente?
 
----
+**Cálculo:**  
+Corrente total:  
+\( i = 0,6A + 0,8A + 0,9A = 2,3A \)  
+Capacidade da bateria:  
+\( \Delta Q = 7Ah \)  
 
-## Questão 3
-
-**Dado:**  
-\( U = 9V \)  
-\( i = 300mA \Rightarrow \Delta Q = i \cdot \Delta t = 300mA \cdot 6h = \Delta Q = 1800mAh \)
-
-**Resposta:**  
-\( \Delta Q = 1800mAh \)  
-\( \Delta t = 6h \)
+Tempo de operação:  
+\( \Delta t = \frac{\Delta Q}{i} = \frac{7}{2,3} \approx 3,04h \)
 
 ---
 
-## Questão 4
+## Questão 02 - Cálculo de tempo de descarga
 
-**Dado:**  
-\( U = 3,7V \)  
-\( \Delta t = 1h45min = 1,75h \)  
-\( i = 2A \)
+**Enunciado:**  
+Um Power Bank de 5V e 10.000mAh é utilizado para carregar um tablet que consome 1,2A. Contudo, há uma perda de eficiência de 15% no circuito de conversão de tensão e regulação interna.
 
-Fórmula:  
-\( \Delta Q = i \cdot \Delta t = 2A \cdot \frac{7}{4} = \Delta Q = \frac{14}{4} = \Delta Q = 3,5Ah \)
+**Pergunta:**  
+Considerando essa perda, estime por quanto tempo o tablet poderá operar com esse Power Bank.
+
+**Cálculo:**  
+Capacidade efetiva considerando 15% de perda:  
+\( \Delta Q = 10.000mAh \cdot (1 - 0,15) = 8500mAh = 8,5Ah \)
+
+Corrente de consumo:  
+\( i = 1,2A \)
+
+Tempo de operação:  
+\( \Delta t = \frac{\Delta Q}{i} = \frac{8,5}{1,2} \approx 7,08h \)
 
 ---
 
-## Questão 5
+## Questão 03 - Cálculo da capacidade necessária da bateria
 
-**Dado:**  
-\( U = 11,1V \)  
-\( \Delta t = 18min = \frac{18}{60}h = 0,3h \)  
+**Enunciado:**  
+Um transmissor portátil de rádio opera com uma tensão de 9V e consome 300mA. Ele precisa funcionar por 6 horas sem recarga.
+
+**Pergunta:**  
+Qual deve ser a capacidade mínima da bateria, em mAh, para suportar essa operação?
+
+**Cálculo:**  
+\( \Delta Q = i \cdot \Delta t = 300mA \cdot 6h = 1800mAh \)
+
+---
+
+## Questão 04 - Cálculo da capacidade necessária da bateria
+
+**Enunciado:**  
+Você está desenvolvendo um protótipo alimentado por uma bateria Li-Ion de 3,7V, que consome 2A por 1h45min de uso contínuo.
+
+**Pergunta:**  
+Qual a capacidade mínima (em Ah) da bateria para suportar essa carga?
+
+**Cálculo:**  
+Tempo convertido:  
+\( \Delta t = 1h45min = \frac{7}{4}h \)
+
+\( \Delta Q = i \cdot \Delta t = 2A \cdot \frac{7}{4} = 3,5Ah \)
+
+---
+
+## Questão 05 - Corrente média consumida
+
+**Enunciado:**  
+Uma bateria de Li-Po de 11,1V e 2200mAh alimentou um drone por 18 minutos até descarregar completamente.
+
+**Pergunta:**  
+Qual foi a corrente média consumida (em A) durante o voo?
+
+**Cálculo:**  
+Tempo convertido:  
+\( \Delta t = \frac{18}{60}h = 0,3h \)  
+Capacidade da bateria:  
 \( \Delta Q = 2200mAh = 2,2Ah \)
 
-Fórmula:  
-\( G = \frac{2,2Ah}{0,3h} = 7,333...A \Rightarrow G \approx 7,3A \)
+Corrente média:  
+\( i = \frac{\Delta Q}{\Delta t} = \frac{2,2}{0,3} \approx 7,33A \)
+
+---
