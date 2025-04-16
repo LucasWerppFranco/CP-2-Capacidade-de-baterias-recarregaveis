@@ -1,5 +1,14 @@
 # Lista de Exercícios sobre Capacidade das Baterias Recarregáveis
 
+```
+      ____
+ ____|    \
+(____|     `._____
+ ____|       _|___ Soluções em Energias Renováveis e Sustentáveis
+(____|     .'
+     |____/
+```
+
 Este repositório contém uma lista de exercícios resolvidos sobre a capacidade e consumo de baterias recarregáveis, com foco no dimensionamento de tempo de operação, corrente e capacidade elétrica.
 
 ---
