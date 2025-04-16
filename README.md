@@ -97,7 +97,7 @@ Corrente média:
 Monte um circuito no Tinkercad que utilize três baterias de 9V ligadas em paralelo.
 
 **Acesso ao Circuito:**
-(Link para o trabalho)[https://www.tinkercad.com/things/7W2IgE3IXYL-copy-of-exemplos-cp1-sers/editel?returnTo=%2Fthings%2F7W2IgE3IXYL-copy-of-exemplos-cp1-sers&sharecode=97J3Ch_R-83pPrJD_0aklmO013rR20TlSlGVYuDioj4]
+[Link para o trabalho](https://www.tinkercad.com/things/7W2IgE3IXYL-copy-of-exemplos-cp1-sers/editel?returnTo=%2Fthings%2F7W2IgE3IXYL-copy-of-exemplos-cp1-sers&sharecode=97J3Ch_R-83pPrJD_0aklmO013rR20TlSlGVYuDioj4)
 
 ---
 
@@ -107,7 +107,7 @@ Monte um circuito no Tinkercad que utilize três baterias de 9V ligadas em paral
 Projete um circuito que simule uma sinalização de segurança com duas faixas de LEDs.
 
 **Acesso ao Circuito:**
-(Link para o trabalho)[https://www.tinkercad.com/things/2IMReSPJEt4/editel?sharecode=Ee2B_IHkjwTxapZ4Y8pJB-ZRNooaPbfnhqzsbq7YRIA]
+[Link para o trabalho](https://www.tinkercad.com/things/2IMReSPJEt4/editel?sharecode=Ee2B_IHkjwTxapZ4Y8pJB-ZRNooaPbfnhqzsbq7YRIA)
 
 ---
 
